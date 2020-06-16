@@ -22,24 +22,3 @@ string solution(vector<string> participants, vector<string> completions) {
 
     return answer;
 }
-
-int main()
-{
-    vector<string> participant(
-        {
-            "leo",
-            "kiki",
-            "eden"
-        }
-    );
-    vector<string> completion(
-        {
-            "eden",
-            "kiki"
-        }
-    );
-
-    cout << "answer : " << solution(participant, completion) << endl;
-
-    return 0;
-}

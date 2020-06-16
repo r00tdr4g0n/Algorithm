@@ -34,27 +34,3 @@ vector<int> solution(vector<int> answers) {
 
     return answer;
 }
-
-int main()
-{
-    vector<int> answers1;
-    vector<int> answers2;
-    vector<int> answer;
-
-    answers1.push_back(1);
-    answers1.push_back(2);
-    answers1.push_back(3);
-    answers1.push_back(4);
-    answers1.push_back(5);
-
-    answers2.push_back(1);
-    answers2.push_back(3);
-    answers2.push_back(2);
-    answers2.push_back(4);
-    answers2.push_back(2);
-
-    //answer = solution(answers1);
-    answer = solution(answers2);
-
-    return 0;
-}
